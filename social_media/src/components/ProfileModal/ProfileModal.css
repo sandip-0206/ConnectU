@@ -1,0 +1,91 @@
+
+.infoForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.infoInput{
+    border: none;
+    outline: none;
+    padding-left: 1rem;
+    background-color: var(--inputColor);
+    border-radius: 8px;
+    padding: 20px;
+    flex: 1;
+}
+.infoForm>div{
+    display: flex;
+    /* flex-direction: column; */
+    gap: 0.5rem;
+    height: 2rem;
+    width: 100%;
+}
+
+.infoForm>h3{
+    text-align: center;
+}
+.infoButton{
+    width: 6rem;
+    height: 2rem;
+    align-content: center;
+    margin-bottom: 3rem;
+}
+
+
+/* <form className="infoForm">
+        <h3>Your Info</h3>
+
+        <div>
+          <input 
+          type="text" 
+          className='infoInput' 
+          name="FirstName" 
+          placeholder='First Name'
+          />
+
+          <input 
+          type="text" 
+          className='infoInput' 
+          name="LastName" 
+          placeholder='Last Name'
+          />
+        </div>
+        
+        <div>
+        <input 
+          type="text" 
+          className='infoInput' 
+          name="WorkAT" 
+          placeholder='Work at'
+          />
+        </div>
+
+        <div>
+        <input 
+          type="text" 
+          className='infoInput' 
+          name="Lives in" 
+          placeholder='Lives'
+          />
+        <input 
+          type="text" 
+          className='infoInput' 
+          name="Country" 
+          placeholder='Country'
+          />
+        </div>
+        <div>
+          <input type="text" className='infoInput'
+          placeholder='RelationShip Status'
+          />
+        </div>
+        <div>
+          Profile Image
+          <input type="file" name="profileImg" />
+          Cover Image
+          <input type="file" name="coverImg" />
+        </div>
+        <button className="button infoButton">Update</button>
+      </form> */
